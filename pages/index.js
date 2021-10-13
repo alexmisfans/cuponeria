@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
-export default function Home() {
+const Index = () => {
   return (
-    <h1>Hello world</h1>
+    <h1>Hello</h1>
   )
 }
+
+export default Index;
